@@ -1,6 +1,25 @@
+problem 1 
+
+
+future_value = 0
+present_value = 0
+years = 0
+
+future_value = float(input("Enter future value:"))
+interest_rate = float(input("Enter interest rate:"))
+years = int(input ("Enter a year:"))
+
+
+
+present_value = future_value / ( 1.0 + interest_rate) ** years
+
+
+print('Present value: $', format(present_value, "2f"))
+
 
 
 problem 2
+
 
 packages = eval(input("Enter the number of packages purchased: "))
 result = 0
@@ -33,6 +52,8 @@ for year in range(1,6):
 
 
 problem 4 
+
+
 import random
 def countDemo(x):
    even=0
