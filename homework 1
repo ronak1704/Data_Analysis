@@ -1,3 +1,35 @@
+
+
+problem 2
+
+packages = eval(input("Enter the number of packages purchased: "))
+result = 0
+if packages >= 100:
+    result = packages - (40*packages/100)
+elif packages>=50:
+    result = packages - (30 * packages / 100)
+elif packages>=20:
+    result = packages - (20 * packages / 100)
+elif packages>=10:
+    result = packages - (10 * packages / 100)
+else:
+    result = packages
+result = result*99
+
+print("Total amount of the purchase after the discount:",result)
+
+
+
+problem 3 
+
+INT_TUITION = 8000
+INCREASE_RATE = 0.03
+
+print('Projected Tuition for the next five years')
+print('Year \t\t Tuition')
+print('--------------------------')
+
+problem 4 
 import random
 def countDemo(x):
    even=0
